@@ -1,0 +1,9 @@
+REST API - JSON
+GET/ users - list all user return HTML Document which is good for browser but not good for mobile apps
+GET/ api/users - good practice and good for both browser and apps
+GET/ api/users /1 - list user with id 1 return as json
+GET/ api/users /2 - list user with id 2 return as json
+
+POST/ api/users - create the new user return as json
+PATCH/ api/users - edit the user return as json
+DELETE/ api/users - delete the user return as json
